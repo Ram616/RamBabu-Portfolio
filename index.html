@@ -63,7 +63,7 @@
           <h3> <span> post : </span> Software Devloper</h3>
           <h3> <span> linkdin : </span> ramswami0021</h3>
           <h3> <span> mail : </span> ramswami0021@gmail.com</h3>
-          <a href="https://drive.google.com/file/d/10dacoF3Ff77na-G3aUv-WC-ueThegU4m/view?usp=sharing" targer="_blank"><button class="btn">download cV <i class="fas fa-download"></i></button></a>
+          <a href="https://drive.google.com/file/d/10dacoF3Ff77na-G3aUv-WC-ueThegU4m/view?usp=sharing" targer="_blank"><button class="btn" onclick="myFunction()">download cV <i class="fas fa-download"></i></button></a>
         </div>
 
         <div class="counter">
@@ -149,12 +149,12 @@
           </div>
         </div>
 
-        <form action="main.php">
+        <form action="">
           <input type="text" placeholder="name" class="box">
           <input type="email" placeholder="email" class="box">
           <input type="text" placeholder="project" class="box">
           <textarea name="messsage" id="" cols="30" rows="10" placeholder="message" class="box message"></textarea>
-          <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+          <button type="submit" onclick="myFunction()" class="btn">Send <i class="fas fa-paper-plane"></i></button>
         </form>
       </div>
     </section>
@@ -169,5 +169,11 @@
     <!-- Jquery links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script>
+function myFunction() {
+  alert("Thank You For Visiting Here!");
+}
+</script>
+    
   </body>
 </html>
